@@ -1,0 +1,44 @@
+body {
+    font-family: Roboto, sans-serif;
+    background: white;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.hero {
+    background: #1F2937;
+    height: 30%;
+    color: #F9FAF8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.list {
+    display: flex;
+    gap: 20px;
+    padding-right: 100px;
+    font-size: larger;
+}
+
+.header-logo {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.second_layer {
+    display: flex;
+}
