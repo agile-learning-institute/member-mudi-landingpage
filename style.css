@@ -4,12 +4,14 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
+    text-align: center;
 }
 
 .hero {
     background: #1F2937;
-    height: 30%;
+    height: 100%;
     color: #F9FAF8;
+    
 }
 
 .header {
@@ -41,4 +43,33 @@ a {
 
 .second_layer {
     display: flex;
+    justify-content: space-around;
+}
+
+.website {
+    text-align: center;
+    overflow-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 50px;
+}
+
+h2 {
+    font-size: ;
+}
+
+button {
+    width: 100px;
+    background-color: #3882F6;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.img {
+    height: 100px;
+    width: 200px;
 }
