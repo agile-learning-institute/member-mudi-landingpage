@@ -52,4 +52,19 @@ h6 {
 
 button {
     width: 92px;
+    margin: 30px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 10px;
+    border-color: #1F2937;
+}
+
+.second_layer {
+    display: flex;
+    gap: 100px;
+}
+
+.img {
+    width: 40px;
+    height: 40px;
 }
