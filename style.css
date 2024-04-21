@@ -1,27 +1,17 @@
 body {
-    font-family: Roboto, sans-serif;
-    background: white;
+    min-height: 100vh;
     margin: 0;
-    padding: 0;
-    height: 100vh;
-    text-align: center;
+    font-family: Roboto, sans-serif;
 }
 
 .hero {
-    background: #1F2937;
-    height: 100%;
+    background-color: #1F2937;
+}
+
+.header-logo {
+    font-size: 24px;
     color: #F9FAF8;
-    
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-
-}
-
-li {
-    list-style: none;
+    font-weight: 600;
 }
 
 a {
@@ -29,47 +19,16 @@ a {
     color: #F9FAF8;
 }
 
+li {
+    list-style: none;
+}
+
+.header {
+    display: flex;
+}
+
 .list {
     display: flex;
+    justify-content: space-evenly;
     gap: 20px;
-    padding-right: 100px;
-    font-size: larger;
-}
-
-.header-logo {
-    font-size: x-large;
-    font-weight: bold;
-}
-
-.second_layer {
-    display: flex;
-    justify-content: space-around;
-}
-
-.website {
-    text-align: center;
-    overflow-wrap: break-word;
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 50px;
-}
-
-h2 {
-    font-size: 40;
-}
-
-button {
-    width: 100px;
-    background-color: #3882F6;
-    color: white;
-    margin: 0;
-    padding: 10px;
-    border-radius: 10px;
-    font-size: 15px;
-}
-
-.img {
-    height: 100px;
-    width: 200px;
 }
