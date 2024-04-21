@@ -32,3 +32,24 @@ li {
     justify-content: space-evenly;
     gap: 20px;
 }
+
+.website {
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    overflow-wrap: break-word;
+}
+
+h6 {
+    overflow-wrap: break-word;
+    font-size: 12px;
+}
+
+button {
+    width: 92px;
+}
