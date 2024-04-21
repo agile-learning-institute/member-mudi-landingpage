@@ -106,7 +106,7 @@ h2 {
 .blue_background {
     display: flex;
     background-color: #3882f6;
-    padding: 30px;
+    padding: 60px;
     margin: 10px;
     height: 50px;
     width: 600px;
@@ -118,4 +118,9 @@ h2 {
 .p1 {
     font-weight: bolder;
     font-size: medium;
+}
+
+.button2 {
+    display: flex;
+    flex-direction: row;
 }
