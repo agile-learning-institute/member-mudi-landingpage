@@ -4,7 +4,7 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-.hero {
+.hero-section {
     background-color: #1F2937;
 }
 
@@ -25,11 +25,12 @@ li {
 
 .header {
     display: flex;
+    justify-content: space-around;
 }
 
 .list {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: left;
     gap: 20px;
 }
 
@@ -39,10 +40,10 @@ li {
     color: #F9FAF8;
 }
 
-h2 {
+.website h2 {
     font-size: 48px;
     font-weight: bolder;
-    overflow-wrap: break-word;
+    padding-left: 200px;
 }
 
 h6 {
@@ -59,7 +60,7 @@ button {
     border-color: #1F2937;
 }
 
-.second_layer {
+.page-info {
     display: flex;
     gap: 100px;
 }
@@ -74,8 +75,8 @@ button {
     background-color: #F9FAF8;
 }
 
-h2 {
-    color: #1F2937;
+.section_two h2 {
+    color:
     text-align: center;
 }
 
