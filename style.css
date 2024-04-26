@@ -49,7 +49,12 @@ ul {
 
 .website {
     color: #F9FAF8;
-    gap: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.website div {
+
 }
 
 h2 {
