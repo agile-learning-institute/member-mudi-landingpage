@@ -54,3 +54,9 @@ h2 {
 h6 {
     font-size: 18px;
 }
+
+.button2 {
+    background-color: #3882F6;
+    color: white;
+    font-size: 50px;
+}
