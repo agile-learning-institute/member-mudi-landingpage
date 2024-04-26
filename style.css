@@ -1,5 +1,5 @@
 * {
-    /* outline: 2px solid yellow; */
+    outline: 2px solid yellow;
 }
 
 body {
@@ -116,7 +116,6 @@ h6 {
     background-color: #F9FAF8;
     display: flex;
     min-height: 80vh;
-    flex-direction: column;
 }
 
 .four-boxes {
