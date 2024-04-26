@@ -57,7 +57,11 @@ ul {
     margin: 0;
 }
 
-
+h2,
+h6,
+button {
+    margin: 0;
+}
 
 h2 {
     font-size: 48px;
