@@ -68,3 +68,7 @@ h6 {
     font-weight: bold;
     border-radius: 10px;
 }
+
+.page-info {
+    display: flex;
+}
