@@ -118,3 +118,7 @@ h6 {
     min-height: 80vh;
     flex-direction: column;
 }
+
+.four-boxes {
+    display: flex;
+}
