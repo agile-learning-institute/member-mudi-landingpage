@@ -25,14 +25,16 @@ ul {
 .header {
     display: flex;
     justify-content: space-around;
-    font-size: 18px;
+    
 }
 
 .three-horizontal-texts {
     display: flex;
     gap: 40px;
+    font-size: 18px;
 }
 
 .header-logo {
     font-weight: bolder;
+    font-size: 18px;
 }
