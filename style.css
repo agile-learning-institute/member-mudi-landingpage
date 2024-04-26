@@ -28,4 +28,6 @@ ul {
 
 .three-horizontal-texts {
     display: flex;
+    justify-content: center;
+    gap: 8px;
 }
