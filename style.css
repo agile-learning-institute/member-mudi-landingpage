@@ -74,6 +74,7 @@ h6 {
 }
 
 .img {
+    background-color: chartreuse;
     color: burlywood;
     height: 50px;
     width: 100px;
