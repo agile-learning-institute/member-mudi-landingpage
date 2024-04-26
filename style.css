@@ -51,10 +51,12 @@ ul {
     color: #F9FAF8;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 0;
 }
 
 .website div {
+    flex: 1;
 
 }
 
