@@ -54,7 +54,7 @@ ul {
     align-items: flex-start;
     gap: 0;
     padding: 0;
-    margin: 30px;
+    margin: 100px;
 }
 
 h2,
@@ -94,8 +94,8 @@ h6 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 60px;
-    margin-right: 60px;
+    margin-top: 100px;
+    margin-right: 100px;
 }
 
 .page-info div {
