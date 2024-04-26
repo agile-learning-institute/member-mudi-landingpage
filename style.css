@@ -123,3 +123,11 @@ h6 {
     display: flex;
     flex-direction: row;
 }
+
+
+.item {
+    width: 60px;
+    height: 60px;
+    border: 4px solid darkslategray;
+    background: skyblue;
+}
