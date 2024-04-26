@@ -115,4 +115,5 @@ h6 {
 .section_with_4boxes {
     background-color: #F9FAF8;
     display: flex;
+    min-height: 80vh;
 }
