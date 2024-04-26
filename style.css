@@ -71,7 +71,7 @@ h6 {
 
 .page-info {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-around;
 }
 
 .img {
