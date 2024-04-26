@@ -73,3 +73,8 @@ h6 {
     display: flex;
 }
 
+.img {
+    color: burlywood;
+    height: 50px;
+    width: 100px;
+}
