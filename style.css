@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 * {
-    outline: 2px solid yellow;
+    /* outline: 2px solid yellow; */
     font-family: Roboto, sans-serif;
 }
 
@@ -216,9 +216,9 @@ h6 {
     color: white;
     font-size: 18px;
     padding: 10px 30px;
-    border: none;
     font-weight: bold;
     border-radius: 10px;
+    border: #F9FAF8;
 }
 
 .footer {
