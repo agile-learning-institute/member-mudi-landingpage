@@ -191,6 +191,11 @@ h6 {
     width: 1000px;
     height: 200px;
     border-radius: 20px;
+    display: flex;
+}
+
+.inside-blue {
+    color: #F9FAF8;
 }
 
 
