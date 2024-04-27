@@ -193,6 +193,7 @@ h6 {
     border-radius: 20px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .inside-blue {
