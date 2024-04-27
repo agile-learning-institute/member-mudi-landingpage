@@ -152,10 +152,12 @@ h6 {
     display: flex;
     justify-content: space-between;
     gap: 50px;
+    align-items: center;
 }
 
 .text {
     width: 180px;
     height: 180px;
     margin-top: 20px;
+
 }
