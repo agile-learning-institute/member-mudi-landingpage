@@ -224,4 +224,12 @@ h6 {
 .footer {
     background-color: #1F2937;
     min-height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer div {
+    color: #F9FAF8;
+    font-size: 10px;
 }
