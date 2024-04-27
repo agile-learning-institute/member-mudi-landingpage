@@ -128,8 +128,8 @@ h6 {
 .four-boxes {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 
 
