@@ -169,10 +169,12 @@ h6 {
 .quote-section {
     background-color: #e1e5ee;
     min-height: 60vh;
-    text-align: center;
+    text-align: left;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 36px;
     color: #1F2937;
 }
+
+
