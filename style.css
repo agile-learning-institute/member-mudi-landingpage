@@ -200,6 +200,15 @@ h6 {
     color: #F9FAF8;
 }
 
+.p3 {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.p4 {
+    font-size: 15px;
+}
+
 
 .footer {
     background-color: #1F2937;
