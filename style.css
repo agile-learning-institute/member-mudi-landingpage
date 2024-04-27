@@ -182,12 +182,15 @@ h6 {
     background-color: #F9FAF8;
     min-height: 50vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .blue-background {
     background-color: #3882F6;
     width: 1000px;
     height: 200px;
+    border-radius: 20px;
 }
 
 
