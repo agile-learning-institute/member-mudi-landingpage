@@ -168,5 +168,5 @@ h6 {
 
 .quote-section {
     background-color: #8b8f96;
-    max-height: fit-content;
+    max-height: 100vh;
 }
