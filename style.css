@@ -153,6 +153,7 @@ h6 {
     justify-content: space-between;
     gap: 50px;
     align-items: center;
+    text-align: center;
 }
 
 .text {
@@ -160,6 +161,6 @@ h6 {
     height: 180px;
     margin-top: 20px;
     font-size: 18px;
-    color: #1F2937;
-    font-weight: 600;
+    color: #8b8f96;
+    font-weight: 500;
 }
