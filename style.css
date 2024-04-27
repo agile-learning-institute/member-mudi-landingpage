@@ -126,7 +126,7 @@ h6 {
 }
 
 .four-boxes {
-    /* display: flex; */
+    display: inline-flexbox;
     /* flex-direction: column; */
     /* justify-content: center; */
     /* align-items: center; */
