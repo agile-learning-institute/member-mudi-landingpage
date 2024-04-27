@@ -164,3 +164,9 @@ h6 {
     color: #8b8f96;
     font-weight: 500;
 }
+
+
+.quote-section {
+    background-color: #8b8f96;
+    max-height: fit-content;
+}
