@@ -126,7 +126,7 @@ h6 {
 }
 
 .four-boxes {
-    
+    flex-direction: row;
 }
 
 
