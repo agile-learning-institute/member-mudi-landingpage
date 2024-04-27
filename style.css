@@ -147,3 +147,13 @@ h6 {
     border-radius: 10px;
     margin-top: 20px;
 }
+
+.four-subtext {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.text {
+    
+}
