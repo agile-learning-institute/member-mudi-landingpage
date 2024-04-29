@@ -30,18 +30,18 @@ ul {
     color: #F9FAF8;
 }
 
-.header {
+.hero-section-header {
     display: flex;
     justify-content: space-around;    
 }
 
-.three-horizontal-texts {
+.link-text {
     display: flex;
     gap: 40px;
     font-size: 18px;
 }
 
-.header-logo {
+.logo-text {
     font-weight: bolder;
     font-size: 24px;
 }
@@ -49,7 +49,7 @@ ul {
 
 
 
-.website {
+.main-text {
     color: #F9FAF8;
     display: flex;
     flex-direction: column;
@@ -73,7 +73,7 @@ h6 {
     font-size: 18px;
 }
 
-.btn1 {
+.primary-button {
     background-color: #3882F6;
     color: white;
     font-size: 18px;
@@ -83,12 +83,12 @@ h6 {
     border-radius: 10px;
 }
 
-.page-info {
+.hero-section-pageInfo {
     display: flex;
     justify-content: space-around;
 }
 
-.img {
+.placeholder {
     background-color: #8b8f96;
     color: #F9FAF8;
     height: 100px;
@@ -100,7 +100,7 @@ h6 {
     margin-right: 130px;
 }
 
-.page-info div {
+.hero-section-pageInfo div {
     flex: 1 1 auto;
     padding: 50px;
     width: 100%;
@@ -116,7 +116,7 @@ h6 {
 
 
 
-.section_with_4boxes {
+.boxes {
     background-color: #F9FAF8;
     display: flex;
     flex-direction: column;
@@ -125,14 +125,14 @@ h6 {
     
 }
 
-.random-info {
+.boxes-header h3 {
     color: #1F2937;
     font-size: 36px;
     font-weight: bolder;
     margin-top: 20px;
 }
 
-.four-boxes {
+.items {
     display: flex;
     gap: 50px;
     /* flex-direction: column; */
@@ -149,7 +149,7 @@ h6 {
     margin-top: 20px;
 }
 
-.four-subtext {
+.items__text {
     display: flex;
     justify-content: space-between;
     gap: 50px;
@@ -167,7 +167,7 @@ h6 {
 }
 
 
-.quote-section {
+.quote-text {
     background-color: #e1e5ee;
     min-height: 60vh;
     text-align: left;
@@ -179,7 +179,7 @@ h6 {
 }
 
 
-.call-to-action-section {
+.signup-box {
     background-color: #F9FAF8;
     min-height: 50vh;
     display: flex;
@@ -187,7 +187,7 @@ h6 {
     align-items: center;
 }
 
-.blue-background {
+.signup-box--background {
     background-color: #3882F6;
     width: 1000px;
     height: 200px;
@@ -197,22 +197,22 @@ h6 {
     align-items: center;
 }
 
-.inside-blue {
+.secondary-box {
     color: #F9FAF8;
 }
 
-.p3 {
+.signup-text1 {
     font-size: x-large;
     font-weight: bold;
     margin-bottom: 0;
 }
 
-.p5 {
+.signup-text2 {
     font-size: 20px;
     margin-top: 0;
 }
 
-.btn2 {
+.signup-button {
     background-color: #3882F6;
     color: white;
     font-size: 18px;
