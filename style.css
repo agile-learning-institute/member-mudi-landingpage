@@ -16,13 +16,13 @@ body {
 .logo-text {
     display: flex;
     color: #F9FAF8;
-    font-size: 24px;
+    font-size: 1.5rem;
     justify-content: space-evenly;
 }
 
 .logo-text .text-weight {
     font-weight: bold;
-    padding-right: 350px;
+    padding-right: 22rem;
 }
 
 li {
@@ -33,41 +33,40 @@ li {
 a {
     text-decoration: none;
     color: #E5E7EB;
-    font-size: 18px;
+    font-size: 1.13rem;
 }
 
 .display-flex {
     display: flex;
-    gap: 10px;
+    gap: 0.625rem;
     
 }
 
 .display-flex .align-horizontal {
     display: flex;
     flex-direction: column;
-    gap: 0px;
+    gap: 0rem;
 }
 
 .display-flex .align-horizontal .extra-bold{
     color: #F9FAF8;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: bolder;
-    margin-bottom: -15px;
+    margin-bottom: -0.937rem;
 }
 
 .display-flex .align-horizontal p {
     color: #E5E7EB;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 100;
-    margin-bottom: 7px;
+    margin-bottom: 0.44rem;
 }
 
 .btn {
-    /* padding: 10px; */
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
     font-family: Roboto, sans-serif;
-    margin-bottom: 150px;
+    margin-bottom: 9.375rem;
 }
 
 .btn-color {
@@ -77,19 +76,19 @@ a {
 }
 
 .btn-size {
-    font-size: 16px;
-    border-radius: 10px;
+    font-size: 1rem;
+    border-radius: 0.625rem;
     border: none;
-    width: 150px;
+    width: 9.375rem;
 }
 
 .display-flex .align-horizontal .placeholder {
     background-color: #737477;
     color: #E5E7EB;
-    height: 250px;
-    width: 500px;
-    margin-top: 50px;
-    margin-right: 130px;
+    height: 15.625rem;
+    width: 31.25rem;
+    margin-top: 3.125rem;
+    margin-right: 8.125rem;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -112,28 +111,26 @@ a {
     align-items: center;
     text-align: center;
     justify-content: space-evenly;
-    margin-bottom: 100px;
+    margin-bottom: 6.25rem;
 }
 
 .item {
-    border: 4px solid #3882F6;
-    padding: 15px 20px;
-    width: 110px;
-    height: 120px;
-    border-radius: 10px;
-    /* margin-right: 20px; */
-    /* margin-left: 90px; */
+    border: 0.25rem solid #3882F6;
+    padding: 0.937rem 1.25rem;
+    width: 6.875rem;
+    height: 7.5rem;
+    border-radius: 0.625rem;
 }
 
 .item p {
     color: #737477;
-    margin-bottom: 100px;
-    font-weight: 40px;
+    margin-bottom: 6.25rem;
+    font-weight: 2.5rem;
 }
 
 .information-bold h3 {
     text-align: center;
-    font-size: 36px;
+    font-size: 2.25rem;
     color: #1F2937;
 }
 
@@ -150,14 +147,9 @@ a {
 
 .text-light-italic {
     color: #1F2937;
-    font-size: 36PX;
-    /* text-align: center; */
-    /* display: flex; */
-    /* padding-top: 150px; */
+    font-size: 2.25rem;
     display: flex;
     flex-direction: column;
-    /* width: 75%; */
-    /* height: 75%; */
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -166,14 +158,14 @@ a {
 
 .gray-background .medium-bold {
     font-weight: bold;
-    font-size: 24px;
-    padding-bottom: 80px;
-    padding-left: 400px;
+    font-size: 1.5rem;
+    padding-bottom: 5rem;
+    padding-left: 25rem;
     padding-top: 0px;
 }
 
 .wrap-text {
-    padding-top: 100px;
+    padding-top: 6.25rem;
     padding-bottom: 0px;
     width: 70%;
     display: flexbox;
@@ -187,43 +179,50 @@ a {
 
 .light-background .blue-background {
     background-color: #3882F6;
-    border-radius: 10px;
-    /* height: 10%; */
-    /* width: 800px; */
+    border-radius: 0.625rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 120px 150px;
+    margin: 7.5rem 9.375rem;
     color: #F9FAF8;
 }
 
 .background-height {
-    height: 300px;
+    height: 18.75rem;
 }
 
 .small-bold-text h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 0.625rem;
 }
 
 .small-bold-text p {
-    font-size: 18px;
-    margin-top: 10px;
+    font-size: 1.125rem;
+    margin-top: 0.625rem;
 }
 
 .button {
-    font-size: 16px;
-    border-radius: 10px;
-    border: 2px solid #F9FAF8;
-    width: 150px;
+    font-size: 1rem;
+    border-radius: 0.625rem;
+    border: 0.125rem solid #F9FAF8;
+    width: 9.375rem;
     background-color: #3882F6;
     color: #F9FAF8;
     font-weight: bold;
-    padding: 8px;
+    padding: 0.5rem;
 }
 
 .button-alignment {
     display: flex;
     align-content: center;
     justify-content: center;
+}
+
+.viewport-height {
+    min-height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    font-size: 1.25rem;
 }
