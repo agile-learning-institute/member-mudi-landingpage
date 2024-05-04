@@ -2,7 +2,7 @@
 
 * {
     font-family: Roboto, sans-serif;
-    outline: 2px solid yellow;
+    /* outline: 2px solid yellow; */
 }
 
 body {
@@ -151,7 +151,36 @@ a {
 .text-light-italic {
     color: #1F2937;
     font-size: 36PX;
-    text-align: center;
+    /* text-align: center; */
     /* display: flex; */
-    padding-top: 150px;
+    /* padding-top: 150px; */
+    display: flex;
+    flex-direction: column;
+    /* width: 75%; */
+    /* height: 75%; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+}
+
+.gray-background .medium-bold {
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 80px;
+    padding-left: 400px;
+    padding-top: -20px;
+}
+
+.wrap-text {
+    padding-top: 100px;
+    padding-bottom: 0px;
+    width: 70%;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    height: 100%;
+    margin: 0%;
+    font-weight: 100;
 }
